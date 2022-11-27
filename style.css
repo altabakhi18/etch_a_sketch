@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}
+
+.one{
+    border-color: black;
+
+}
