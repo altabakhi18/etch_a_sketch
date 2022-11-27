@@ -1,11 +1,11 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: black;
-}
 
-.one{
-    border-color: black;
 
+#container{
+    display: inline-grid;
+    grid-template-columns: repeat(16, 0fr);
+    grid-template-rows: repeat(16, 0fr);
+    place-items: center;
+    height: 800px;
+    width: 980px;
+    
 }
